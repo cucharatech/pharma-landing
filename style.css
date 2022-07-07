@@ -104,11 +104,11 @@ h2 {
 
 .module-3{
     background-color: #e5e7eb;
-    padding: 100px 300px;
+    padding: 100px 400px;
 }
 
 .module-3 h3 {
-    text-align: center;
+    text-align: left;
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
@@ -119,4 +119,52 @@ h2 {
     font-size: 24px;
     font-weight: bold;
     color: #1f2937;
+}
+
+.module-4{
+    background-color: #ffffff;
+    padding: 100px 300px;
+}
+
+.cta {
+    display: flex;
+    padding: 50px 100px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ctacontainer h3{
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+.ctacontainer div{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.button-2{
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    font-size: 18px;
+    width: max-content;
+}
+.footer{
+    display: flex;
+    background-color: #1f2937;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.footer div{
+    font-size: 18px;
+    color: #e5e7eb;
 }
